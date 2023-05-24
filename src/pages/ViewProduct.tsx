@@ -38,7 +38,7 @@ const ViewProduct: FunctionComponent<RouteComponentProps> = ({ params }) => {
               width: "100%",
               backgroundColor: "red",
               border: "1px solid red",
-              color: "white",
+              color: "blue",
             }}
             onClick={() => {
               dispatch({ type: "addToCart", product });
